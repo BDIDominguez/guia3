@@ -64,8 +64,7 @@ public class Guia3 {
                     dario.adoptarPerro(dokyprimero);
                     dario.adoptarPerro(kyra);
                     dario.adoptarPerro(cual);
-                    Perro masGrande = new Perro();
-                    masGrande = dario.perroMasGrande();
+                    Perro masGrande = dario.perroMasGrande();
                     JOptionPane.showMessageDialog(null, "el perro mas grande es " + masGrande.toString());
 
                     JOptionPane.showMessageDialog(null, "Se termino XD");
